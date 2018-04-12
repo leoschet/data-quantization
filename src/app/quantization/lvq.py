@@ -1,0 +1,2 @@
+class LinearVectorQuantization(object):
+    # TODO

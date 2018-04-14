@@ -17,13 +17,6 @@ class LinearVectorQuantization(KNearestNeighbors):
         """
         return np.copy(self._prototypes_labels)
     
-    @property
-    def prototypes_features_types(self):
-        """
-        Read-only property
-        """
-        return np.copy(self._prototypes_features_types)
-
     def __init__(self, prototype_selection, prototypes_per_class=1, weighted_distance=True):
         super(LinearVectorQuantization, self).__init__(1, weighted_distance)
         self.prototypes_per_class = prototypes_per_class

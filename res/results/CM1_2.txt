@@ -1,0 +1,30 @@
+Results using k = 1
+	Average precision: 0.8128941468685988
+	Precision standard deviation: 0.0
+	Average recall: 0.9016064257028112
+	Recall standard deviation: 0.0
+	Average F1-Score: 0.8549551956506066
+	F1-Score standard deviation: 0.0
+
+=======================
+
+Results using k = 2
+	Average precision: 0.8128941468685988
+	Precision standard deviation: 0.0
+	Average recall: 0.9016064257028112
+	Recall standard deviation: 0.0
+	Average F1-Score: 0.8549551956506066
+	F1-Score standard deviation: 0.0
+
+=======================
+
+Results using k = 3
+	Average precision: 0.8128941468685988
+	Precision standard deviation: 0.0
+	Average recall: 0.9016064257028112
+	Recall standard deviation: 0.0
+	Average F1-Score: 0.8549551956506066
+	F1-Score standard deviation: 0.0
+
+=======================
+

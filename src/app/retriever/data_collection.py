@@ -31,8 +31,10 @@ class DataCollection(object):
     def get_features_types(self, relation):
         relation_attr = self.documents[relation]['attributes']
         relation_attr = relation_attr[:(len(relation_attr) - 1)]
-        return [EDataType.CATEGORICAL if isinstance(attr_type, list)
-                else EDataType.NUMERICAL for _, attr_type in relation_attr]
+        features_types = [EDataType.CATEGORICAL if isinstance(attr_type, list)
+                          else EDataType.NUMERICAL for _, attr_type in relation_attr]
+
+        return np.array(features_types)
 
     def _get_documents(self):
         files_name = os.listdir(self._corpus_dir)
